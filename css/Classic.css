@@ -1,0 +1,106 @@
+body{
+background:#CCCCCC url('../Image/Classic.jpg') no-repeat top left;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+div#wrap{
+min-width: 2000px;
+}
+
+div#content{
+
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 10px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/PirateTexture.jpg');
+font-family: "Times New Roman",Times,serif;
+display: block;
+
+}
+
+div#mainpage{
+
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding-top: 60px;
+padding-bottom: 60px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/PirateTexture.jpg');
+font-family: "Times New Roman",Times,serif;
+font-weight: bold;
+font-size: 19px;
+display: block;
+
+}
+
+div#title{
+
+margin-top: 15px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 10px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/PirateTexture.jpg');
+font-family: "Times New Roman",Times,serif;
+font-weight: bold;
+font-size: 25px;
+display: block;
+}
+
+#button{
+
+margin-top:10px;
+width: 200px;
+height: 40px;
+margin-left: 40%;
+margin-right: 50%;
+background-image:url('../Image/ClassicButtonTexture.jpg');
+background-size: 100% 100%;
+font-family: "Times New Roman",Times,serif;
+font-weight: bold;
+font-size: 20px;
+border-style: none;
+display: block;
+
+}
+
+#button a{
+color:#FFF;
+}
+
+#button:hover{
+opacity:.8;
+
+}
+
+[name="GamesHeader"]{
+min-height: 50px;
+background: white;
+border-width: 5px;
+border-style:solid;
+border-color: #003366;
+}
+
+[name ="games"]{
+min-height: 100px;
+background: #0033FF;
+border-width: 5px;
+border-style:solid;
+border-color: #003366;
+text-align: center;
+}
+
+ #playerBoard{background-image: url('../Image/waterText.jpg');}
+ 
+ #opponentBoard{background-image: url('../Image/waterText.jpg');}
+

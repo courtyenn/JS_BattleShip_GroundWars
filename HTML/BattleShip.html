@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+		<!--<script src="../jscript/Grid.js"></script> -->
+		<title>BATTLE SHIP</title>
+		<script src="../js/QuString.js"></script>
+		<link id = "style" rel = "stylesheet" href="../css/Classic.css"></link>
+		<script language="javascript">
+			//this place is for initialization. Only add things to the end. do not modify what is already here.
+			parseQueryString();
+			loadStyle();
+		</script>
+		<!-- <script src="http://www.html5canvastutorials.com/libraries/kinetic-v4.3.1-beta2.js"></script> -->
+		 <script src="../js/RGraph.common.core.js"></script>
+		 <script type="text/javascript" src="../js/ServerCommunication.js"></script>
+		 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		 <script src="../js/RGraph.bar.js"></script>
+		<!-- <script src="../js/QuString.js"></script> -->
+		<title>Battleship: Groundwar</title>
+
+	</head>
+	<body onload="Draw();">
+	<div id = "wrap">
+	<div id="title">
+		<h1>Play Battleship: Groundwar</h1>
+	</div>
+	
+	<div id="content">
+
+	<p><div id="player">
+	
+	
+	   <canvas id="opponentBoard" height="500" width="600" tabindex ='0' onclick = "over()" style="cursor:crosshair">
+      </canvas>
+		</div>
+	<canvas id="playerBoard" height="500" width="600" tabindex='1' style="cursor:crosshair">
+      </canvas>
+	</p>
+	<p>
+	<button type="button" width = "200" height = "100" onclick="doYouWantTo();" id="myButton">Place Ship </button>
+			
+		</div>
+
+	<div id = "container"></div>
+	</div>
+	
+	</body>
+	
+	<script type="text/javascript" src="../js/PlayerGrid.js"></script>
+	<script type="text/javascript" src="../js/TestOpp.js"></script>	
+		
+		
+		
+</html>

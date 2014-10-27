@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>The Lobby</title>
+		<script language="javascript" src="../js/ServerCommunication.js"></script>
+		<script language="javascript" src = "../js/QuString.js"></script>
+		<script language="javascript" src="../js/Lobby.js"></script>
+		<link id = "style" rel = "stylesheet" href="../css/Classic.css"></link>
+		<script language="javascript">
+			//this place is for initialization. Only add things to the end. do not modify what is already here.
+			parseQueryString();
+			loadStyle();
+			setInterval(refresh, refreshDelay);
+			refresh();
+		</script>
+	</head>
+	
+	<body>
+	<div id ="wrap">
+	<div id = "title">
+	<h1>Welcome to the Lobby! Select a Game</h1></div>
+	<div id = "content">
+		<div name="create">
+			<div class="gamepanel">
+				<button id="button" type="button" onClick="createGame()">Create Game</button><br>
+			</div>
+		
+		
+		<div name="singleplayers">
+			<div class="gamepanel">
+				<button id="button" type="button" onClick="createSinglePlayer(easy);" value="Play">Easy</button><br>
+				<button id="button" type="button" onClick="createSinglePlayer(medium);" value="Play">Medium</button><br>
+				<button id="button" type="button" onClick="createSinglePlayer(hard);" value="Play">Hard</button><br>
+			</div>
+		</div>
+		</div>
+		
+		<div name = "GamesHeader">Player Games:</div>
+		<div name="games" id="games">
+		</div>
+		</div>
+		</div>
+	</body>
+</html>

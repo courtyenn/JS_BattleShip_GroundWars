@@ -1,0 +1,52 @@
+body{
+background:#CCCCCC url('../Image/Space.jpg') no-repeat top left;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+div#wrap{
+min-width: 2000px;
+}
+
+div#content{
+
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 50px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/Moontexture.jpg');
+font-family: Lucida Console;
+
+}
+
+div#mainpage{
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding-top: 60px;
+padding-bottom: 60px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/Moontexture.jpg');
+font-family: Lucida Console;
+
+}
+
+div#title{
+
+margin-top: 15px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 10px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/Moontexture.jpg');
+font-family: Lucida Console;
+font-weight: bold;
+font-size: 25px;
+}

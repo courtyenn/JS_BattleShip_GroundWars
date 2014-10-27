@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Theme Page</title>
+		
+		<script language="javascript" src = "../js/QuString.js"></script>
+		<link id = "style" rel = "stylesheet" href="../css/Classic.css"></link>
+		<script language="javascript">
+			//this place is for initialization. Only add things to the end. do not modify what is already here.
+			parseQueryString();
+			loadStyle();
+			var dest = 'Lobby.html';
+			
+			function act(){
+				if(validate()){
+					redirect(dest);
+				}
+			}
+			
+			function validate(){
+				put("playername", document.getElementById("playername").value);
+				return true;
+			}
+			
+			function setFocus(){
+			document.getElementById("playername").focus();
+			}
+		</script>
+	</head>
+	
+	<body onload="setFocus()">
+		<div id="title">
+			<h1>Select A Theme</h1>
+		</div>
+		
+		<div id="mainpage">
+			
+			<button type="button" onclick="restyle('classic');" id="classic">Classic </button>
+			<button type="button" onclick="restyle('medieval');" id="medieval">Medieval</button>
+			<button type="button" onclick="restyle('space');" id="space" >Space</button><br><br>
+			
+			Type in a name:<input type = "text" id="playername"></input><br>
+			<button type="button" onclick="act();" id="start">Start Game</button>
+			
+			
+		</div>
+	</body>
+</html>

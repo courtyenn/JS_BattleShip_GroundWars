@@ -1,0 +1,55 @@
+body{
+background:#CCCCCC url('../Image/Medieval.jpg') no-repeat top left;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+div#content{
+
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 50px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/parchment.jpg') ;
+background-size: 100% 100%;
+font-family: Palatino Linotype;
+}
+
+div#mainpage{
+
+margin-top: 10px;
+margin-left: 25%;
+margin-right: 25%;
+padding-top: 60px;
+padding-bottom: 60px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+background-image:url('../Image/parchment.jpg');
+background-size: 100% 100%;
+font-family: Palatino Linotype;
+display: block;
+}
+
+div#title{
+
+margin-top: 20px;
+margin-left: 25%;
+margin-right: 25%;
+padding: 10px;
+text-align: center;
+border: 8px solid #333333;
+overflow: auto;
+font-family: Palatino Linotype;
+font-weight: bold;
+font-size: 25px;
+background-image:url('../Image/parchment.jpg');
+background-size: 100% 100%;
+}
+
+/**input{
+background-color: red;
+} **/
